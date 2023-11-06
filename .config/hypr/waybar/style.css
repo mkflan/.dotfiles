@@ -38,12 +38,27 @@ window#waybar {
     background-color: #4c566a;
 	  padding: 0px 10px;
 	  margin: 5px 0px;
-}
-
-#clock {
     color: #b48ead;
     border-radius: 5px;
     margin-right: 10px;
+}
+
+#backlight {
+  background-color: #4c566a;
+	padding: 0px 10px;
+	margin: 5px 0px;
+  color: #b48ead;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+#pulseaudio {
+  background-color: #4c566a;
+	padding: 0px 10px;
+	margin: 5px 0px;
+  color: #b48ead;
+  border-radius: 5px;
+  margin-right: 10px;
 }
 
 #custom-power {

@@ -4,5 +4,5 @@
 	"height": 30,
 	"output": "HDMI-A-2",
 	"modules-left": ["hyprland/workspaces"],
-	"modules-right": ["clock", "backlight", "custom/power"]
+	"modules-right": ["backlight", "pulseaudio", "clock", "custom/power"]
 }
