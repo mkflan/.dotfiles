@@ -43,7 +43,7 @@ window#waybar {
 }
 
 #workspaces button.active {
-    color: black;
+    color: #394F8A;
 }
 
 #workspaces button.focused {
