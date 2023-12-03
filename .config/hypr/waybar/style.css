@@ -1,73 +1,81 @@
 * {
     border: none;
     border-radius: 0;
-    font-family: "Iosevka";
+    font-family: "VictorMono Nerd Font";
+    font-weight: bold;
     font-size: 14px;
     min-height: 0;
 }
 
 window#waybar {
-    background: #3b4252;
-    color: white;
+    background: rgba(21, 18, 27, 0);
+    color: #CDD6F4;
+}
+
+#workspaces,
+#clock,
+#custom-power {
+  	  background: #051622;    
+      padding: 0px 10px;
+      margin: 3px 0px;
+      margin-top: 5px;
+      border: 1px solid #181825;
+}
+
+#window {
+    border-radius: 10px;
+    margin-left: 60px;
+    margin-right: 60px;
 }
 
 #workspaces {
-	  background-color: #4c566a;
-	  margin: 5px;
+  	background: #051622;    
 	  margin-left: 10px;
-	  border-radius: 5px;
+	  border-radius: 10px;
+    padding-right: 0px;
+    padding-left: 5px;    
 }
 
-#workspaces button {
-    padding: 0 10px;
-    color: #eceff4;
+#workspaces button {    
+    padding: 5px;
+    color: #DEB992;
+    margin-right: 5px;
+}
+
+#workspaces button.active {
+    color: black;
 }
 
 #workspaces button.focused {
-    color: #2e3440;
-    background-color: #88c0d0;
+    color: #2E3440;
+    background: #818FB4;
+    border-radius: 5px;
+}
+
+#workspaces button.urgent {
+    color: #BF616A;
+    background: #818FB4;
     border-radius: 5px;
 }
 
 #workspaces button:hover {
-	  background-color: #5e81ac;
+    color: #DEB992;
+	  background: #1F3044;
 	  border-radius: 5px;
 }
 
 #clock {
-    background-color: #4c566a;
-	  padding: 0px 10px;
-	  margin: 5px 0px;
-    color: #b48ead;
-    border-radius: 5px;
-    margin-right: 10px;
-}
-
-#backlight {
-  background-color: #4c566a;
-	padding: 0px 10px;
-	margin: 5px 0px;
-  color: #b48ead;
-  border-radius: 5px;
-  margin-right: 10px;
-}
-
-#pulseaudio {
-  background-color: #4c566a;
-	padding: 0px 10px;
-	margin: 5px 0px;
-  color: #b48ead;
-  border-radius: 5px;
-  margin-right: 10px;
+    color: #DEB992;
+    border-radius: 10px 0px 0px 10px;
+    border-left: 0px;
+    border-right: 0px;
 }
 
 #custom-power {
-	  color: #2e3440;
-	  background-color: #bf616a;
-	  border-radius: 5px;
-	  margin-right: 10px;
-	  margin-top: 5px;
-	  margin-bottom: 5px;
-	  margin-left: 0px;
-	  padding: 0px 10px;
+	  color: #BF616A;
+    border-radius: 0px 10px 10px 0px;
+    border-left: 0px;
+    border-right: 0px;
+    margin-right: 5px;
 }
+

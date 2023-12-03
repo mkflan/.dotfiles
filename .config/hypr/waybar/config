@@ -1,8 +1,9 @@
 {
-	"include": "~/.config/hypr/waybar/modules",
-	"position": "bottom",
-	"height": 30,
+	"position": "top",
+	"layer": "top",
+	"height": 0,
 	"output": "HDMI-A-2",
-	"modules-left": ["hyprland/workspaces"],
-	"modules-right": ["backlight", "pulseaudio", "clock", "custom/power"]
+	"include": "~/.config/hypr/waybar/modules",
+	"modules-center": ["hyprland/workspaces"],
+	"modules-right": ["clock", "custom/power"]
 }
