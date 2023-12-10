@@ -23,3 +23,6 @@ backspace = { r = [":w", ":config-reload"], c = [":config-open"], l = [":buffer-
 C-z = ":earlier" # bind CTRL+Z to undo an earlier action
 C-u = ":later" # bind CTRL+U to redo an action
 C-d = ":w" # bind CTRL+D to save 
+
+[keys.normal.space.l]
+h = ":toggle lsp.display-inlay-hints"
